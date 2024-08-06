@@ -1,0 +1,56 @@
+body{
+    background-color: red;
+}
+
+/* navigation */
+
+#navbar{
+    flex-direction: column;
+}
+
+/* home */
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 90px;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* services */
+ 
+
+#services{
+    flex-direction: column;
+    /* margin: 0 auto; Center the boxes */
+
+    
+}
+
+#services .box{
+   margin: 2px 10px;
+}
+
+/* clients */
+
+#clients{
+    overflow: hidden;
+    
+} 
+
+.client-item {
+    padding: 10px;
+    margin: 10px;
+    
+}
+#clients img {
+    height: 100px;
+    
+}
+
+
+
+/* contact */
