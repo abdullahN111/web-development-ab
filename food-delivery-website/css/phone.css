@@ -52,5 +52,10 @@ body{
 }
 
 
+@mediaquery (max-width: 500px) {
+    #home{
+        padding: 5px 15px;
+}
+}
 
 /* contact */
